@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Counter"
+        android:textSize="40sp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/dectext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019160163"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+        android:id="@+id/btnstrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+           android:id="@+id/btnreset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints" />
+        <Button
+             android:id="@+id/btnpaused"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paused"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Md Jakir Hossain"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/myid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2019-1-60-163"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+ <Button
+     android:id="@+id/exit"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="20dp"
+     android:text="Exit"
+     tools:ignore="MissingConstraints" />
+</LinearLayout>
